@@ -4,8 +4,8 @@
         android:label="random"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
-        <meta-data android:name="com.google.android.geo.API_KEY"  
-             android:value="Addyours"/>
+        <!-- <meta-data android:name="com.google.android.geo.API_KEY"  
+             android:value="Addyours"/> -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
