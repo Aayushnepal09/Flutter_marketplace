@@ -1,0 +1,163 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:1755388395224074276",
+      "lastPropertyId": "10:1819689200144598835",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:5616583560322746149",
+          "name": "userID",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "3:6476017362766792001"
+        },
+        {
+          "id": "2:5666421421269216929",
+          "name": "username",
+          "type": 9
+        },
+        {
+          "id": "3:833669781507191727",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:8683178832145541436",
+          "name": "password",
+          "type": 9
+        },
+        {
+          "id": "7:3673235797466487800",
+          "name": "fname",
+          "type": 9
+        },
+        {
+          "id": "8:1327688660122397798",
+          "name": "lname",
+          "type": 9
+        },
+        {
+          "id": "9:9000778547250327128",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "10:1819689200144598835",
+          "name": "uid",
+          "type": 6,
+          "flags": 129
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7187338455050805458",
+      "lastPropertyId": "3:474141437124168385",
+      "name": "Category",
+      "properties": [
+        {
+          "id": "1:1699400926772092194",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:5776092436057899631",
+          "name": "categoryId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "4:564446221027492873"
+        },
+        {
+          "id": "3:474141437124168385",
+          "name": "categoryName",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2409890910820290082",
+      "lastPropertyId": "7:2941225911205876750",
+      "name": "Product",
+      "properties": [
+        {
+          "id": "1:7738327543202863556",
+          "name": "pid",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:6969132237805402499",
+          "name": "productId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "7:2486577352657672029"
+        },
+        {
+          "id": "3:4158691007582086077",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:2099848522967433553",
+          "name": "price",
+          "type": 9
+        },
+        {
+          "id": "5:1881896969669490870",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "6:8020643484745579237",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "7:2941225911205876750",
+          "name": "categoryId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "8:1643472555128223838",
+          "relationTarget": "Category"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:2409890910820290082",
+  "lastIndexId": "8:1643472555128223838",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    7858566292440967577,
+    7955010377942542426
+  ],
+  "retiredIndexUids": [
+    634105571500668049
+  ],
+  "retiredPropertyUids": [
+    5916701203717393757,
+    3475012209060386923,
+    2706250535870486305,
+    4844401363494620432,
+    4723195987362991362,
+    4695482223483438098,
+    9005776117116850444,
+    4421607327266596891,
+    2372635048226451676,
+    2756160670834519709,
+    3912550364986977620,
+    3525624406916190144,
+    6510021609888275028
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
